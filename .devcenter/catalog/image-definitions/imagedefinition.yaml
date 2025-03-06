@@ -1,0 +1,11 @@
+$schema: "1.0"
+name: "semantic-kernel"
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+description: "This definition is for working with Accsos sematic kernel"
+
+tasks:
+  - name: git-clone
+    description: Clone this repository
+    parameters:
+      repositoryUrl: https://gitlab.accso.de/accsonet/dotnet/semantic-kernel-sdk.git
+      directory: C:\Workspaces
