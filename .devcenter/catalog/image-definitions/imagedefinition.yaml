@@ -9,3 +9,5 @@ tasks:
     parameters:
       repositoryUrl: https://gitlab.accso.de/accsonet/dotnet/semantic-kernel-sdk.git
       directory: C:\Workspaces
+      branch: develop
+      pat: '{{https://devboxevalkeyvault.vault.azure.net/secrets/SemanticKernelRepo/68811db067ac43d791af55ca402626a9}}'
